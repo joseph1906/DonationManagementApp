@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Donation Manager</string>
+    <string name="splash_tagline">Connecting donors with NGOs</string>
+
+    <!-- Activity titles -->
+    <string name="title_submit">List a Donation</string>
+    <string name="title_detail">Donation Details</string>
+
+    <!-- Form labels -->
+    <string name="label_item_name">Item Name</string>
+    <string name="label_description">Description</string>
+    <string name="label_quantity">Quantity</string>
+    <string name="label_location">Pickup Location</string>
+    <string name="label_contact">Contact Information</string>
+
+    <!-- Hints -->
+    <string name="hint_item_name">e.g. Clothes, Books, Food</string>
+    <string name="hint_description">Describe the condition and details…</string>
+    <string name="hint_quantity">Number of items</string>
+    <string name="hint_location">Street address or area</string>
+    <string name="hint_contact">Phone number or email</string>
+    <string name="hint_search">Search by item or location…</string>
+
+    <!-- Buttons -->
+    <string name="btn_submit">Submit Donation</string>
+    <string name="mark_as_picked_up">Mark as Picked Up</string>
+    <string name="already_collected">Already Collected</string>
+    <string name="fab_add_desc">Add donation</string>
+
+    <!-- Submit screen -->
+    <string name="submit_header">List Your Donation</string>
+    <string name="submit_subheader">Fill in the details below so NGOs can find and collect your items.</string>
+
+    <!-- Status labels -->
+    <string name="status_available">✓ Available</string>
+    <string name="status_picked_up">✗ Picked Up</string>
+
+    <!-- Format strings -->
+    <string name="quantity_label">Qty: %d</string>
+    <string name="location_label">📍 %s</string>
+    <string name="contact_label">📞 %s</string>
+    <string name="listed_on">Listed on: %s</string>
+
+    <!-- Messages -->
+    <string name="donation_submitted">Donation listed successfully!</string>
+    <string name="marked_picked_up">Marked as picked up.</string>
+    <string name="no_donations">No donations found.\nTap + to list one!</string>
+
+    <!-- Errors -->
+    <string name="error_required">This field is required</string>
+    <string name="error_quantity">Please enter a valid quantity (> 0)</string>
+    <string name="error_load">Failed to load donations. Check your connection.</string>
+    <string name="error_submit">Failed to submit. Please try again.</string>
+    <string name="error_update">Failed to update status. Please try again.</string>
+    <string name="error_not_found">Donation not found.</string>
+</resources>
